@@ -1,0 +1,89 @@
+2019/10/02 12:20:10 [crit] 6#6: *1 connect() to unix:/studioweb/app.sock failed (2: No such file or directory) while connecting to upstream, client: 172.23.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "uwsgi://unix:/studioweb/app.sock:", host: "127.0.0.1"
+2019/10/02 12:56:08 [crit] 7#7: *1 connect() to unix:/studioweb/app.sock failed (2: No such file or directory) while connecting to upstream, client: 172.25.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "uwsgi://unix:/studioweb/app.sock:", host: "127.0.0.1"
+2019/10/02 12:56:28 [crit] 7#7: *1 connect() to unix:/studioweb/app.sock failed (2: No such file or directory) while connecting to upstream, client: 172.25.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "uwsgi://unix:/studioweb/app.sock:", host: "127.0.0.1"
+2019/10/02 13:33:11 [error] 6#6: *1 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.32.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "uwsgi://192.168.32.3:8000", host: "127.0.0.1"
+2019/10/02 13:42:17 [error] 7#7: *1 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.32.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "uwsgi://192.168.32.3:8000", host: "127.0.0.1"
+2019/10/02 21:53:36 [error] 6#6: *1 open() "/webapp/static/admin/css/fonts.css" failed (2: No such file or directory), client: 192.168.32.1, server: 127.0.0.1, request: "GET /static/admin/css/fonts.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/10/02 21:56:31 [error] 6#6: *1 open() "/webapp/static/admin/css/fonts.css" failed (2: No such file or directory), client: 192.168.32.1, server: 127.0.0.1, request: "GET /static/admin/css/fonts.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/10/02 22:22:02 [emerg] 1#1: host not found in upstream "uwsgi:8000" in /etc/nginx/conf.d/app.conf:3
+2019/10/02 22:22:06 [emerg] 1#1: host not found in upstream "uwsgi:8000" in /etc/nginx/conf.d/app.conf:3
+2019/10/02 22:22:09 [emerg] 1#1: host not found in upstream "uwsgi:8000" in /etc/nginx/conf.d/app.conf:3
+2019/10/02 22:22:12 [emerg] 1#1: host not found in upstream "uwsgi:8000" in /etc/nginx/conf.d/app.conf:3
+2019/10/02 22:22:15 [emerg] 1#1: host not found in upstream "uwsgi:8000" in /etc/nginx/conf.d/app.conf:3
+2019/10/02 22:22:18 [emerg] 1#1: host not found in upstream "uwsgi:8000" in /etc/nginx/conf.d/app.conf:3
+2019/10/02 22:22:22 [emerg] 1#1: host not found in upstream "uwsgi:8000" in /etc/nginx/conf.d/app.conf:3
+2019/10/02 22:22:30 [emerg] 1#1: host not found in upstream "uwsgi:8000" in /etc/nginx/conf.d/app.conf:3
+2019/10/02 22:22:43 [emerg] 1#1: host not found in upstream "uwsgi:8000" in /etc/nginx/conf.d/app.conf:3
+2019/10/02 22:23:11 [emerg] 1#1: host not found in upstream "uwsgi:8000" in /etc/nginx/conf.d/app.conf:3
+2019/10/02 22:24:03 [emerg] 1#1: host not found in upstream "uwsgi:8000" in /etc/nginx/conf.d/app.conf:3
+2019/10/02 22:25:04 [emerg] 1#1: host not found in upstream "uwsgi:8000" in /etc/nginx/conf.d/app.conf:3
+2019/10/02 22:26:05 [emerg] 1#1: host not found in upstream "uwsgi:8000" in /etc/nginx/conf.d/app.conf:3
+2019/10/02 22:26:45 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:26:49 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:26:52 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:26:55 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:26:58 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:34:15 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:34:19 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:34:23 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:34:26 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:34:29 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:34:32 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:34:36 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:34:43 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:34:57 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:35:24 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:36:16 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:37:18 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:37:21 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:37:24 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:37:26 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:37:29 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:37:32 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:37:36 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:37:43 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:37:57 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:38:24 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:38:51 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:38:54 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:38:57 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:39:00 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:39:03 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:39:06 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:39:10 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:39:17 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:39:31 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:39:55 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:39:58 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:40:00 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:40:03 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:40:06 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:40:09 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:40:13 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:40:20 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:40:34 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:41:00 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:41:52 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:42:35 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:42:38 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:42:41 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:42:44 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:42:47 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:42:50 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:42:54 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:43:02 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:43:16 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:43:42 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:44:34 [emerg] 1#1: unknown "django_project_name" variable
+2019/10/02 22:55:17 [error] 7#7: *1 open() "/webapp/static/admin/css/base.css" failed (2: No such file or directory), client: 192.168.96.1, server: ${nginx_server_name}, request: "GET /static/admin/css/base.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/admin/login/?next=/admin/"
+2019/10/02 22:55:17 [error] 7#7: *7 open() "/webapp/static/admin/css/login.css" failed (2: No such file or directory), client: 192.168.96.1, server: ${nginx_server_name}, request: "GET /static/admin/css/login.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/admin/login/?next=/admin/"
+2019/10/02 22:55:17 [error] 7#7: *8 open() "/webapp/static/admin/css/responsive.css" failed (2: No such file or directory), client: 192.168.96.1, server: ${nginx_server_name}, request: "GET /static/admin/css/responsive.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/admin/login/?next=/admin/"
+2019/10/02 23:08:19 [error] 7#7: *1 open() "/webapp/static/admin/css/base.css" failed (2: No such file or directory), client: 192.168.96.1, server: ${nginx_server_name}, request: "GET /static/admin/css/base.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/admin/login/?next=/admin/"
+2019/10/02 23:08:19 [error] 7#7: *3 open() "/webapp/static/admin/css/login.css" failed (2: No such file or directory), client: 192.168.96.1, server: ${nginx_server_name}, request: "GET /static/admin/css/login.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/admin/login/?next=/admin/"
+2019/10/02 23:08:19 [error] 7#7: *4 open() "/webapp/static/admin/css/responsive.css" failed (2: No such file or directory), client: 192.168.96.1, server: ${nginx_server_name}, request: "GET /static/admin/css/responsive.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/admin/login/?next=/admin/"
+2019/10/02 23:08:21 [error] 7#7: *3 open() "/webapp/static/admin/css/base.css" failed (2: No such file or directory), client: 192.168.96.1, server: ${nginx_server_name}, request: "GET /static/admin/css/base.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/admin/login/?next=/admin/"
+2019/10/02 23:08:21 [error] 7#7: *4 open() "/webapp/static/admin/css/login.css" failed (2: No such file or directory), client: 192.168.96.1, server: ${nginx_server_name}, request: "GET /static/admin/css/login.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/admin/login/?next=/admin/"
+2019/10/02 23:08:21 [error] 7#7: *1 open() "/webapp/static/admin/css/responsive.css" failed (2: No such file or directory), client: 192.168.96.1, server: ${nginx_server_name}, request: "GET /static/admin/css/responsive.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/admin/login/?next=/admin/"
+2019/10/03 11:27:07 [error] 8#8: *1 open() "/webapp/static/admin/css/base.css" failed (2: No such file or directory), client: 192.168.128.1, server: ${nginx_server_name}, request: "GET /static/admin/css/base.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/admin/login/?next=/admin/"
+2019/10/03 11:27:07 [error] 8#8: *6 open() "/webapp/static/admin/css/responsive.css" failed (2: No such file or directory), client: 192.168.128.1, server: ${nginx_server_name}, request: "GET /static/admin/css/responsive.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/admin/login/?next=/admin/"
+2019/10/03 11:27:07 [error] 8#8: *7 open() "/webapp/static/admin/css/login.css" failed (2: No such file or directory), client: 192.168.128.1, server: ${nginx_server_name}, request: "GET /static/admin/css/login.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/admin/login/?next=/admin/"
